@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f425a08-a1d5-4380-8d63-d9c3fe42796b" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/src/HydrothermalAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ventLines.txt" afterDir="false" />
+    <list default="true" id="6f425a08-a1d5-4380-8d63-d9c3fe42796b" name="Changes" comment="Solved day 6">
+      <change afterPath="$PROJECT_DIR$/src/CrabAligner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lanterfish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lanternfishAges.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -98,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654518423606</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solved day 5 (very nicely too)">
+      <created>1654530229707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654530229707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,7 +134,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Solved day 5 (very nicely too)" />
+    <MESSAGE value="Solved day 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved day 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
