@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Diagnostics {
-    ArrayList<String> input = new ArrayList<>();
+    final ArrayList<String> input = new ArrayList<>();
 
     public Diagnostics(String filePath) throws FileNotFoundException {
         File file = new File(filePath);

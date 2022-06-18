@@ -1,7 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
-import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -45,8 +44,8 @@ public class HydrothermalAnalyzer {
 }
 
 class Line {
-    Coordinate start;
-    Coordinate end;
+    final Coordinate start;
+    final Coordinate end;
 
     @Override
     public String toString() {
@@ -72,8 +71,8 @@ class Line {
 }
 
 class Coordinate {
-    int x;
-    int y;
+    final int x;
+    final int y;
 
     @Override
     public boolean equals(Object o) {

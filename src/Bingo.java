@@ -112,7 +112,7 @@ public class Bingo {
             scanner.close();
         }
 
-        Tile[][] tiles = new Tile[size][size];
+        final Tile[][] tiles = new Tile[size][size];
 
         public void cross(int value) {
             toStream().forEach(tile -> tile.cross(value));
@@ -162,7 +162,7 @@ public class Bingo {
                 this.value = value;
             }
 
-            int value;
+            final int value;
             boolean crossed = false;
 
             public void cross(int value) {
